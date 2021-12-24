@@ -1,13 +1,9 @@
 <?php
+
 include "ip.php";
 include "credentials.php";
 $cont= 'http://'.$ip.'/token.php';
-$p= @file_get_contents($cont);  
-
-
-# © 2021 Avishkar Patil DO NOT EDIT ANYTHING TO KEEP RUNNING
-# If Got Any Problem Meet me at @AvishkarPatil [ Telegram ]
-
+$p= @file_get_contents($cont); 
 
 if(@$_REQUEST["key"]!="")
 {
@@ -28,8 +24,8 @@ if(@$_REQUEST["key"]!="")
 "srno: 200206173037\r\n" .
 "usergroup: tvYR7NSNn7rymo3F\r\n" .
 "channelid: 472\r\n" .
-"ssotoken: $ssoToken\r\n"
-
+"ssotoken: $ssoToken\r\n" 
+	    
     ]
 ];
 
@@ -73,9 +69,5 @@ $haystack = file_get_contents("http://mumsite.cdnsrv.jio.com/jiotv.live.cdn.jio.
 echo $haystack;
 
 }
-
-# © 2021 Avishkar Patil DO NOT EDIT ANYTHING TO KEEP RUNNING
-# DON'T CHANGE ANY JIO SERVER LINK and USERAGENT
-# DON'T REMOVE CREDITS
 
 ?>
