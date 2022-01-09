@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'rrjiotv'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A4800E4C4BBB4B39A38B9A773816FAAD }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_972DBEB6AC72407E875A055314793522 }}
           package: .
